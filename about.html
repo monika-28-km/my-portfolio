@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Monika Kota</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+  <nav class="navbar">
+    <h2 class="logo">Monika Kota</h2>
+    <div class="menu-toggle" id="menuToggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul id="navMenu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ABOUT -->
+<section class="page">
+  <div class="page-header">
+    <h2>About Me</h2>
+    <p>Get to know me better</p>
+  </div>
+
+  <div class="about-content">
+    <p>
+      I am a <strong>B.Tech Information Technology</strong> student (2023–2027) at 
+      <strong>Vignan's Foundation for Science, Technology & Research</strong>. 
+      My journey in technology started with curiosity and has grown into a passion 
+      for building meaningful digital solutions.
+    </p>
+    <p>
+      I specialize in <strong>Python programming</strong> and <strong>Full Stack Development</strong>. 
+      I enjoy creating web applications using modern technologies and always focus on 
+      writing clean, efficient code.
+    </p>
+    <p>
+      When I'm not coding, I explore new technologies, contribute to open-source projects, 
+      and work on solving real-world problems. I'm always eager to learn and collaborate.
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <p>© 2026 <span>Monika Kota</span> — All Rights Reserved</p>
+    <div class="footer-links">
+      <a href="https://github.com/monikakota" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/monikakota" target="_blank">LinkedIn</a>
+      <a href="mailto:monikakota@email.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('navMenu').classList.toggle('active');
+    document.getElementById('menuToggle').classList.toggle('active');
+  }
+</script>
+
+</body>
+</html>
